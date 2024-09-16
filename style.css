@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgray;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 110px 0;
+    align-items: center;
+
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    color: black;
+
+
+}
+
+.rightSection {
+    color: black;
+
+}
+
+.blue {
+    color: navy;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(103, 90, 90);
+    font-size: 1.03rem;
+}
+
+.rightSection img {
+    width: 80%;
+    margin: 0px 95px;
+    animation: move 2s linear;
+    opacity: 0.9;
+    
+}
+@keyframes move {
+    0%{transform: translateX(0px) ;}
+    100%{transform: translateX(100px);}
+}
+
+.leftSection {
+    font-size: 2rem;
+    margin: 16px 22px;
+    font-family: "Poppins", sans-serif;
+}
+
+#element {
+    color: navy;
+    font-weight: bold;
+}
+
+.secondsection {
+    color: black;
+    max-width: 80vw;
+    margin: auto;
+    height: 60vh;
+}
+
+main hr {
+    border: 0;
+    background-color: navy;
+    height: 1.2px;
+    margin: 20px 40px
+}
+
+.light-black {
+    color: #302f2f;
+}
+
+.secondsection .box {
+    background-color: navy;
+    width: 50vw;
+    height: 2px;
+    margin: 86px 324px;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 80px;
+    width: 1px;
+    background-color: navy;
+    margin: 0 128px;
+}
+
+.school-logo {
+    position: relative;
+    width: 25px;
+    top: -32px;
+    left: -11px;
+    transition-duration: 0.5s;
+}
+.school-logo:hover{
+    transform: scale(1.6);
+}
+
+.vertical-text {
+    position: relative;
+    top: 49px;
+    left: -76px;
+    font-size: 14px;
+    width: 182px;
+    font-weight: bold;
+}
+
+.college-logo {
+    position: relative;
+    top: -41px;
+    width: 76px;
+    left: -39px;
+    transition-duration: 0.5s;
+}
+.college-logo:hover {
+    transform: scale(1.6);
+    
+}
+
+.college-text {
+    position: relative;
+
+}
+
+.cmr-logo {
+    position: relative;
+    top: -54px;
+    width: 54px;
+    left: -28px;
+    transition-duration: 0.5s;
+}
+.cmr-logo:hover{
+    transform: scale(1.6); 
+}
+
+.school-disc {
+    position: relative;
+    top: 49px;
+    left: -74px;
+    font-size: 10px;
+    width: 182px;
+    color: #333131;
+}
+
+.college-text {
+    position: relative;
+    top: 36px;
+    left: -54px;
+    font-size: 14px;
+    width: 202px;
+    font-weight: bold;
+}
+
+.college-disc {
+    position: relative;
+    top: 36px;
+    left: -48px;
+    font-size: 10px;
+    width: 182px;
+    color: #333131;
+}
+
+.university {
+    position: relative;
+    top: 24px;
+    left: -23px;
+    font-size: 14px;
+    width: 235px;
+    font-weight: bold;
+}
+
+.university-disc {
+    position: relative;
+    top: 23px;
+    left: -23px;
+    font-size: 10px;
+    width: 182px;
+    color: #333131;
+}
+
+footer {
+    background-color: #232323;
+}
+
+.footer {
+    display: flex;
+    padding: 25px 80px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 224px;
+}
+
+.footer-text-center {
+    text-align: center;
+    padding: 12px 0;
+    color: #767575;
+}
+
+.leftSection .btn {
+    cursor: pointer;
+    width: 134px;
+    height: 30px;
+    position: relative;
+    top: 13px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 1px solid navy;
+    transition-duration: 0.2s;
+    /* transition-property: background-color, transform ; */
+    box-shadow: #232323;
+}
+.leftSection .btn:hover {
+    background-color: #cc7828;
+    transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.leftSection .button{
+    
+    padding: 7px 6px;
+    
+}
+
+.balaji-picture-rightside{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+
+}
+
+.thirdsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.leftsection-disc{
+    background-color: #cc7828;
+    margin: 13px 0px;
+    width: 1157px;
+    
+
+}
+.circular-border{
+    width: 300px;
+    height: 268px;
+    border: 2px solid #cc7828;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    left: -69px;
+    transition: transform 0.2s ease-in-out;
+}
+.circular-border:hover {
+    transform: scale(1.05);
+}
+.leftsection-disc p{
+    padding: 4px 6px;
+    color: rgb(9, 10, 10);
+   
+}
+.leftsection-disc{
+    border-radius: 9px;
+}
+
+.tech-skill h3{
+    padding: 13px 6px;
+    color: navy;
+    background-color: #e49e5b;
+}
+.skillset{
+    padding: 0 25px;
+    color:rgb(9, 10, 10);
+    font-style: italic;
+    background-color: #e49e5b;
+    /* border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px; */
+   
+}
+.Softskill-set{
+    background-color: #e49e5b;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    color: black;
+    padding: 0 25px;
+}
+.Softskill-set li span{
+    font-weight: bold;
+}
+hr{
+    border: 0;
+    background-color: navy;
+    height: 1.2px;
+    margin: 20px 40px
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+.project-card {
+    background: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    width: 464px;
+    margin: 5px;
+}
+.project-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 5px -2px 22px #d26d0d;
+}
+.project-card h2 {
+    margin: 5px;
+    color: navy;
+}
+
+.project-card p {
+    margin: 5px;
+    color: black;
+}
+.project-card img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.project-card .img-2{
+    height: 198px;
+
+}
+.project-card .img-3{
+    height: 198px;
+
+}
+.fourthsection h3{
+    color: navy;
+    margin: 0 24px;
+    animation: h3 1s ease-in ;
+}
+@keyframes h3 {
+    from{
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+.container span{
+    color: navy;
+    font-weight: bold;
+}
+.contact-us{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    padding: 10px;
+
+}
+.contact-us .insta{
+    width: 70px;
+    height: 46px;
+    padding: 32px;
+}
+
+.contact-us .whatsapp{
+    width: 70px;
+    height: 56px;
+    padding: 28px;
+}
+.contact-us .gitHub{
+    width: 70px;
+    height: 56px;
+    padding: 28px;
+}
+.contact-us .gmail{
+    width: 70px;
+    height: 56px;
+    padding: 28px;
+}
+.fivthsection h3{
+    color: navy;
+    margin: 0 24px;
+    animation: h3 1s ease-in ;
+}
+@keyframes h3 {
+    from{
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+.fivthsection h3{
+    color: navy;
+    margin: 0 24px;
+    animation: h3 1s ease-in ;
+}
+@keyframes h3 {
+    from{
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+.fivthsection .contact-us{
+    color: navy;
+    margin: 0 24px;
+    animation: h3 1s ease-in ;
+}
+@keyframes h3 {
+    from{
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+.contact-us a:hover {
+    transform: scale(1.1);
+
+}
